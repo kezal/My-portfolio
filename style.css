@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+img{
+    width:100px;
+    border-radius: 10px;
+}
+
+nav{
+    background-color: rgb(119, 104, 85);
+    padding: 20px;
+    text-align: center;
+    font-weight: 400;
+    position: fixed;
+    top: 0%;
+
+}
+.my portfolio{
+    margin-top: auto;
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(223, 228, 230);
+}
+a:hover{
+    background-color: teal;
+    color: white;
+    padding: 5px;
+    margin-left: 40px ;
+}
+a{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+body{
+    background-color: rgb(208, 216, 211);
+}
+#about{
+    margin-top: 80px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.about-p{
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 20px;
+}
+section{
+    margin-left: 100px;
+    background-color: rgb(87, 129, 129);
+    box-shadow: 5px 5px 5px black;
+    width:60%;
+    border-radius: 15px 0px 15px 0px;
+    padding: 20px;
+    margin-right: 100px;
+    
+}
+footer{
+    margin-left:100px ;
+    padding:10px ;
+    background-color:rgb(69, 128, 128) ;
+    width:60% ;
+    border-radius:15px 0px 15px 0px ;
+    box-shadow:5px 5px 5px black ;
+}
+
+#skills,#hobbies,#experience{
+    width: 30%;
+    padding: 20px;
+}
+#experience,#hobbies{
+    margin-left: auto;
+}
+footer{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-left:5px solid  rgb(77, 128, 77) ;
+}
+.contact img{
+    width: 20px;
+    height: 20px;
+}
